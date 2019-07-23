@@ -1,0 +1,361 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+	height: 100vh;
+	background-color: #252525;
+}
+
+nav{
+	top:0;
+	position: fixed;
+	margin-bottom: 0;
+	width: 100%;
+	height: 10%;
+	background-color: rgba(35,35,35, 0.98);
+	text-align: right;
+	z-index: 1;
+	box-shadow: 0px 15px 10px -15px #111;
+}
+
+.links{
+	padding-right: 2.5%;
+}
+
+nav h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	display: inline-block;
+	margin: 0px;
+	padding-top: 1%;
+	line-height: 35px;
+	margin-left: 1em;
+	color: white;
+	float: left;
+}
+
+nav h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	display: inline-block;
+	margin: 0px;
+	padding-top: 1%;
+	line-height: 35px;
+	margin-left: 0em;
+	margin-right: 1em;
+	color: white;
+	float: left;
+}
+
+nav a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	display: inline-block;
+	margin: 0px;
+	padding-top: 1%;
+	line-height: 35px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid white;
+}
+
+nav a.active{
+	color: white;
+	border-bottom: 2px solid rgb(0, 150, 255);
+}
+
+.Home {
+	vertical-align: top;
+	position: absolute;
+	height: 78.5%;
+	width: 100%;
+	padding-top: 10%;
+	box-shadow: 0px 15px 10px -15px #111;
+	background: linear-gradient(rgba(0, 150, 255, 0.65), rgba(25, 25, 25, 0.65)),  url(../img/map.svg);
+	background-position: top;
+}
+
+
+.Home h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	line-height: 90%;
+	padding-top: 2.5%;
+	color: white;
+	font-size: 75pt;
+	margin-bottom: 2.5%;
+}
+
+.Home p {
+	top: 0;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin-left: 30%;
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+}
+
+.Camera-Home {
+	vertical-align: top;
+	position: absolute;
+	height: 72.5%;
+	width: 100%;
+	padding-top: 10%;
+	box-shadow: 0px 15px 10px -15px #111;
+	background: linear-gradient(rgba(0, 150, 255, 0.85), rgba(25, 25, 25, 0.95)),  url(../img/camera2-2.jpg);
+	background-position: left;
+}
+
+.Camera-Home h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	line-height: 90%;
+	padding-top: 2.5%;
+	color: white;
+	font-size: 75pt;
+	margin-bottom: 2.5%;
+}
+
+.Camera-Home p {
+	top: 0;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin-left: 30%;
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+}
+
+.Manhole-Home {
+	vertical-align: top;
+	position: absolute;
+	height: 72.5%;
+	width: 100%;
+	padding-top: 10%;
+	box-shadow: 0px 15px 10px -15px #111;
+	background: linear-gradient(rgba(0, 150, 255, 0.85), rgba(25, 25, 25, 0.95)),  url(../img/manhole-cover2.jpg);
+	background-position: center;
+}
+
+.Manhole-Home h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	line-height: 90%;
+	padding-top: 2.5%;
+	color: white;
+	font-size: 75pt;
+	margin-bottom: 2.5%;
+}
+
+.Manhole-Home p {
+	top: 0;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin-left: 30%;
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+}
+
+.Powerpole-Home {
+	vertical-align: top;
+	position: absolute;
+	height: 72.5%;
+	width: 100%;
+	padding-top: 10%;
+	box-shadow: 0px 15px 10px -15px #111;
+	background: linear-gradient(rgba(0, 150, 255, 0.85), rgba(25, 25, 25, 0.95)),  url(../img/power-pole2.jpg);
+	background-position: top-left;
+}
+
+.Powerpole-Home h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	line-height: 90%;
+	padding-top: 2.5%;
+	color: white;
+	font-size: 75pt;
+	margin-bottom: 2.5%;
+}
+
+.Powerpole-Home p {
+	top: 0;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin-left: 30%;
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+}
+
+.Antenna-Home {
+	vertical-align: top;
+	position: absolute;
+	height: 72.5%;
+	width: 100%;
+	padding-top: 10%;
+	box-shadow: 0px 15px 10px -15px #111;
+	background: linear-gradient(rgba(0, 150, 255, 0.85), rgba(25, 25, 25, 0.95)),  url(../img/sky2.jpg);
+	background-position: center;
+}
+
+.Antenna-Home h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	line-height: 90%;
+	padding-top: 2.5%;
+	color: white;
+	font-size: 75pt;
+	margin-bottom: 2.5%;
+}
+
+.Antenna-Home p {
+	top: 0;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin-left: 30%;
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+}
+
+.Content{
+	width: 69%;
+	height: 31%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Content-top{
+	width: 69%;
+	height: 31%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2.5%;
+}
+
+.Content-bottom{
+	width: 69%;
+	height: 31%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2.5%;
+}
+
+.Content img{
+	height: 100%;
+	width: 100%;
+	image-orientation: from-image;
+}
+
+.Content-bottom img{
+	height: 100%;
+	width: 100%;
+	image-orientation: from-image;
+}
+
+.Content-top img{
+	height: 100%;
+	width: 100%;
+	image-orientation: from-image;
+}
+
+.Image{
+	margin-left: 5%;
+	margin-top: 4.5%;
+	width: 33%;
+	height: 77.5%;
+	display: inline-block;
+}
+
+.Blurb {
+	display: inline-block;
+	margin-left: 5%;
+	height: 50%;
+	width: 50%;
+	vertical-align: top;
+	margin-top: 10%;
+}
+
+.Blurb h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30pt;
+	line-height: 0;
+	color: white;
+	margin-bottom: 2.5%;
+}
+
+.Blurb p {
+	margin-top: 10%;
+	margin-bottom: auto;
+	color: rgb(150, 150, 150);
+}
+
+.Blurb a{
+	text-decoration: none;
+	color: rgb(200, 200, 200);
+}
+
+.Blurb a:hover{
+	text-decoration: none;
+	color: rgb(0, 150, 255);
+}
+
+.Manholes {
+	margin-top: 47.5%;
+	vertical-align: top;
+	float: left;
+	height: 200%;
+	width: 100%;
+	background-color: #252525;
+
+}
+
+.Cameras {
+	margin-top: 47.5%;
+	float: left;
+	height: 200%;
+	width: 100%;
+	background-color: #252525;
+}
+
+.PowerPoles {
+	margin-top: 47.5%;
+	float: left;
+	height: 200%;
+	width: 100%;
+	background-color: #252525;
+}
+
+.Antennas {
+	margin-top: 50%;
+	float: left;
+	height: 200%;
+	width: 100%;
+	background-color: #252525;
+}
+
+.footer{
+	vertical-align: bottom;
+	width: 100%;
+	height: 5%;
+	background-color: #252525;
+	margin-bottom: 0;
+	box-shadow: 0px -15px 10px -15px #111;
+}
+
+.footer p{
+	padding-top: 1.5%;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	margin-left: 30%;
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+}
